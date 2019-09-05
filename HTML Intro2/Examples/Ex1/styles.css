@@ -1,0 +1,19 @@
+.t1{
+	border: 2;
+	border-style: solid;
+	border-color: black;
+	color: maroon;
+}
+#thead{
+	border: 1;
+	border-style: solid;
+	/*border-color: black;*/
+	background-color: silver;
+}
+
+#tbody{
+	border: 1;
+	border-style: solid;
+	/*border-color: black;*/
+	background-color: lightgrey;
+}
