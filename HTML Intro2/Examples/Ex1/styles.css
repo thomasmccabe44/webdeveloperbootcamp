@@ -5,14 +5,14 @@
 	color: maroon;
 }
 #thead{
-	border: 1;
+	/*border: 1;*/
 	border-style: solid;
 	/*border-color: black;*/
 	background-color: silver;
 }
 
 #tbody{
-	border: 1;
+	/*border: 1;*/
 	border-style: solid;
 	/*border-color: black;*/
 	background-color: lightgrey;
