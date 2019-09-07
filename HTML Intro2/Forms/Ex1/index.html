@@ -3,16 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Form Demo</title>
+	<!-- <style>
+	</style> -->
 </head>
 <body>
 	<!-- about forms -->
-	<h1>Login</h1>
 	<!-- Addition 1 is the shell and inputs -->
 	<!-- Addition #2 from + action and methods action="http://wikipedia.org" method="get" -->
 	<!-- Addition #3 adding in name and removing method and action -->
+	<!-- Addition 4 simple validations -->
 	<!-- action: where the form sends data to -->
 	<!-- method: what http method get or post -->
+	<h1>Login</h1>
 	<form>
+
 		<!-- label option 1  below-->
 		<label for="Username">Username</label>
 		<input name="username" 	type="text" placeholder="Username">
@@ -26,11 +30,11 @@
 		<br>
 
 		<!-- Label option 2 below -->
-		<label for="username">Username</label> 	
-		<input id="username" 	type="text" placeholder="Username">
+		<label for="email">Email</label> 	
+		<input id="email" 	type="email" placeholder="email" required>
 		
 		<label for="password">Password</label>
-		<input id="passord" type="password" placeholder="Password">
+		<input id="passord" type="password" placeholder="Password" required>
 		
 		<input type="Submit">
 	</form>

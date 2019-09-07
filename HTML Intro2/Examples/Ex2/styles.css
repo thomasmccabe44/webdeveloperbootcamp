@@ -2,16 +2,14 @@
 
 
 
-/*.poke{
-	border: 2;
-	border-style: solid;
-	border-color: black;
+.poke{
+	border-collapse: collapse;
+	border:2px solid black;
 }
 
-#bulb, #char, #sqrt{
+#bulb, #char, #sqrt, th,td {
 	text-align: center;
-	border: 2;
-	border-color: solid;
-	border-color: black;
+	border: 2px solid black;
 }
-*/
+
+/*If you need to styles differently you can easily have a seperate {} for each section. always test in red*/
