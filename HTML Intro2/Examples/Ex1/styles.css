@@ -1,19 +1,10 @@
 .t1{
-	border: 2;
-	border-style: solid;
-	border-color: black;
-	color: maroon;
+	border: 2px solid maroon;
 }
-#thead{
-	/*border: 1;*/
-	border-style: solid;
-	/*border-color: black;*/
-	background-color: silver;
+th{
+	border: 2px solid gold;
 }
 
-#tbody{
-	/*border: 1;*/
-	border-style: solid;
-	/*border-color: black;*/
-	background-color: lightgrey;
+tr, td{
+	border: 2px solid blue;
 }
