@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+
+		<!-- Name-->
+		<label for="First">First Name:</label>
+		<input name="First" id="First" type="text" placeholder="John" required>
+
+		<label for="Last">Last Name:</label>
+		<input name="Last" id="Last" type="text" placeholder="Smith" required>
+		<br>
+
+		<!-- Gender Choice -->
+		<div>
+			<label for="Male">Male:</label>
+			<input name="genderChoice" id="Male" type="radio" value="Male">
+
+			<label for="Female">Female:</label>
+			<input name="genderChoice" id="Femal" type="radio" value="Female">
+
+			<label for="Other">Other:</label>
+			<input name="genderChoice" id="Other" type="radio" value="Other">
+		</div>
+
+		<!-- Email & Password -->
+		<div>
+			<label for="email">Email:</label> 	
+			<input id="email" 	type="email" placeholder="email" required>
+
+			<label for="password">Password:</label>
+			<input id="password" type="password" placeholder="Password" required minlength="5" maxlength="8" title="Password Must be Between 5 to 10 Characters">
+		</div>
+
+		<!-- DOB -->
+		<div>
+			<label for="Birthday">Birthday:</label>
+			<select name="Month" id="Month">
+				<option value="Month">Month</option>
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+				<option value="Apr">Apr</option>
+			</select>
+
+			<select name="Day" id="Day">
+				<option value="Day">Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select>
+
+			<select name="Year" id="Year">
+				<option value="Year">Year</option>
+				<option value="1990">1990</option>
+				<option value="1991">1991</option>
+				<option value="1992">1992</option>
+				<option value="1993">1993</option>
+			</select>
+		</div>
+
+		<!-- Terms & Conditions -->
+		<div>
+			<label for="T&C">I agree to the terms and conditions</label>
+			<input type="checkbox" id="T&C" name="T&C" value="T&C">
+		</div>
+
+		<!-- <button>Submit</button> -->
+		<input type="Submit">
+		
+
+	</form>
+</body>
+</html>
