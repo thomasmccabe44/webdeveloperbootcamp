@@ -1,11 +1,16 @@
 body{
 background: lightblue;
-background: url(https://static.wixstatic.com/media/88b604_8693624c21734e9fa8f31cdeb4e69849~mv2_d_3013_1801_s_2.png/v1/fill/w_368,h_220,al_c,q_80,usm_0.66_1.00_0.01/88b604_8693624c21734e9fa8f31cdeb4e69849~mv2_d_3013_1801_s_2.webp);
+/*background: url(https://static.wixstatic.com/media/88b604_8693624c21734e9fa8f31cdeb4e69849~mv2_d_3013_1801_s_2.png/v1/fill/w_368,h_220,al_c,q_80,usm_0.66_1.00_0.01/88b604_8693624c21734e9fa8f31cdeb4e69849~mv2_d_3013_1801_s_2.webp);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: cover;*/
 }
 h1 {
 	color: #32a852;
+	/*border: 5px solid purple;*/
+	border-style: solid;
+	border-color: purple;
+	border-width: 5px
+
 }
 
 h4{

@@ -1,0 +1,10 @@
+body{
+	background: darkblue;
+}
+
+h1{
+	color: white;
+}
+#li1, #li2, #li3, #li4, #li5, #li6{
+	background: green;
+}
