@@ -3,13 +3,82 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Specificity</title>
-</head>
-<body>
-	<ul>
-		<li>John</li>
-		<li>Paul</li>
-		<li>George</li>
-		<li>Ringo</li>
-	</ul>
-</body>
-</html>
+	<style>
+		/*Ex 1
+		*ul {
+			color: purple;
+			}*/
+
+		/*Ex 2
+
+		body {
+			color: red;
+		}
+
+		p{
+			color: green;
+			}*/
+
+
+			/*Ex 3
+			body {
+				color: red;
+			}
+
+			ul {
+				color: blue;
+			}
+			*/
+
+			Ex 4
+			body {
+				color: red;
+			}
+
+			ul {
+				color: blue;
+			}
+
+			li {
+				color: orange;
+			}
+
+			.highlight {
+				color: yellow;
+			}
+
+			Ex 5
+			body {
+				color: red;
+			}
+
+			ul {
+				color: blue;
+			}
+
+			li {
+				color: orange;
+			}
+
+			.highlight {
+				color: yellow;
+			}
+
+			#special {
+				color: pink;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<p>Hello!</p>
+
+		<ul>
+			<li id="special" class="highlight">John</li>
+			<li>Paul</li>
+			<li>George</li>
+			<li class="highlight">Ringo</li>
+		</ul>
+	</body>
+	</html>
